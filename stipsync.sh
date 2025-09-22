@@ -33,7 +33,7 @@ print_usage() {
   echo "Arguments:" >&2
   echo "  -s   Storage Account name" >&2
   echo "  -g   Resource Group name" >&2
-  echo "  -r   Region name (e.g., AzureCloud.eastasia)" >&2
+  echo "  -r   Region name (e.g., AzureCloud.eastasia, refer to sample for more info)" >&2
   echo ""
   echo "Options:" >&2
   echo "  -h, --help       Show help" >&2
