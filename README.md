@@ -1,5 +1,6 @@
 # STIPSync - Azure Service Tag IP Sync
 
+```text
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║                                                                       ║
 ║     ███████╗████████╗██╗██████╗ ███████╗██╗   ██╗███╗   ██╗ ██████╗   ║
@@ -16,6 +17,7 @@
 ║   a single bulk update.                                               ║
 ║                                                                       ║
 ╚═══════════════════════════════════════════════════════════════════════╝
+```
 
 STIPSync syncs Azure Service Tag IP ranges into resource firewall allowlists using a single bulk update, minimizing activity log noise.
 
@@ -48,4 +50,4 @@ STIPSync syncs Azure Service Tag IP ranges into resource firewall allowlists usi
 
 ## Notes
 - Current implementation targets Storage Accounts. Extensible to Key Vault and other resources with similar IP rule models.
-- One bulk update ��� one activity log entry.
+- One bulk update → one activity log entry.
